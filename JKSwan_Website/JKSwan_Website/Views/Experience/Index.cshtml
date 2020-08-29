@@ -2,9 +2,79 @@
     ViewData["Title"] = "Experience";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Experience</h1>
-</div>
-<div>
-    <p>Here is my work experience, for more details, please select any item.</p>
-</div>
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">Experience</h1>
+    </div>
+    <div class="row">
+        <p>Here is my work experience, for more details, please select any item.</p>
+    </div>
+    <div id="accordion">
+        <div class="card">
+            <div id="devops-academy-heading" class="card-header">
+                <h5 class="card-title">
+                    <a class="card-title" href="#" data-toggle="collapse" data-target="#devops-academy-card" aria-expanded="true" aria-controls="devops-academy-card">
+                        DevOps Engineer
+                    </a>
+                </h5><span class="card-subtitle">  -  Academy Mortgage Corporation</span><span class="card-subtitle float-right">August 2018 - Present</span>
+            </div>
+            <div id="devops-academy-card" class="collapse show" aria-labelledby="devops-academy-heading" data-parent="#accordion">
+                <div class="card-body">
+                    <span class="fa-stack fa-2x icon">
+                        <i class="fas fa-square  fa-stack-2x" style="color: teal;"></i>
+                        <i class="fas fa-rocket  fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <div class="content">
+                        <p>
+                            As a DevOps Engineer at Academy, I am repsonsible for building the CICD pipelines for all applications, create reliable and dependable
+                            automation, manage Source Code Repository health, participate in application architecture discussions, and troubleshoot any application errors or issues.
+                        </p>
+                        <h6>Achievements</h6>
+                        <ul>
+                            <li>Implemented Azure DevOps (VSTS) for Code Repository Management and Build Deployment Pipelines for our Applications.</li>
+                            <li>Built over 250 separate Pipelines in Azure DevOps which eliminated the need for manual deployments.</li>
+                            <li>Migrated our code repository management from using Mercurial HG to using Git stored in Azure DevOps</li>
+                            <li>Created configuration management & orchestration of systems by introducing SaltStack Open Source to our environment</li>
+                            <li>
+                                Completely rebuilt the team dynamic between Infrastructure, Development, and Database teams from blaming each other for issues that arise,
+                                to collaborating daily which resulted in increased speed and less headache for development projects
+                            </li>
+                            <li>
+                                Responsible for Evangelizing DevOps practices across the IT Teams at Academy, building automation, improving communication between IT Teams,
+                                and supporting all custom built applications
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="noc-academy-heading" class="card-header">
+                <h5 class="card-title">
+                    <a class="card-title" href="#" data-toggle="collapse" data-target="#noc-academy-card" aria-expanded="true" aria-controls="noc-academy-card">NOC Engineer</a>
+                </h5><span class="card-subtitle"> - Academy Mortgage Corporation</span><span class="card-subtitle float-right">September 2017 - July 2018</span>
+            </div>
+            <div id="noc-academy-card" class="collapse" aria-labelledby="noc-academy-heading" data-parent="#accordion">
+                <div class="card-body">
+                    <span class="fa-stack fa-2x icon">
+                        <i class="fas fa-square  fa-stack-2x" style="color: teal;"></i>
+                        <i class="fas fa-network-wired  fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <div class="content">
+                        <p>
+                            As a NOC (Network Operations Center) Engineer at Academy, I was repsonsible for building all monitoring systems, for network devices, servers, applications, and logs.
+                            I was also expected to setup and govern alerting based on montioring metrics. I was responsible for maintaining and improving the following systems: SolarWinds NPM
+                            SAM SRM IPAM NCM and VMAN, Splunk Enterprise, and ExtraHop.
+                        </p>
+                        <h6>Achievements</h6>
+                        <ul>
+                            <li>Completely rebuilt SolarWinds, including configuration of monitoring, reporting, and alerting</li>
+                            <li>Built numerous dashboards within SolarWinds, and Splunk, and created way for the two systems to share data to provide much more detailed insight</li>
+                            <li>Played an integral part in the conception, design, development and implementation of several automation tasks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </di>

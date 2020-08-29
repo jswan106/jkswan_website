@@ -1,0 +1,54 @@
+﻿@import "./_variables.scss";
+
+
+// Colors
+$link-color: $awesome-color-lighter;
+$link-hover-color: darken($orange, 15%);
+$navbar-light-color: $awesome-color-lighter;
+$nav-tabs-link-active-color: $awesome-color-light;
+
+$body-bg: $gray-900;
+$body-color: $gray-400;
+
+$table-dark-bg: $awesome-color;
+$card-cap-bg: $awesome-color-light;
+$card-cap-color: $gray-100;
+$jumbotron-bg: $awesome-color;
+
+$pagination-color: $awesome-color;
+$pagination-hover-color: darken($orange, 15%);
+
+// Toast
+$toast-background-color: rgba($white, 1);
+
+// Cards
+$card-bg: $gray-800;
+
+// Lists
+$list-group-bg: $gray-700;
+$list-group-color: $gray-200;
+$list-group-hover-bg: $gray-600;
+
+@import "../lib/bootstrap/scss/bootstrap.scss";
+
+// Customs
+.card-subtitle {
+    color: $gray-500;
+}
+
+.card-title {
+    display: inline-block;
+    color: $gray-200;
+}
+
+.icon {
+    font-size: 40px;
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.content {
+    margin-top: 0px;
+    margin-left: 100px;
+}

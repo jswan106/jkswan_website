@@ -12,16 +12,42 @@ a {
   color: #0366d6;
 }
 
+.card-subtitle {
+    color: #808080;
+}
+
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
+.card-title {
+    display: inline-block;
+    color: #000;
+}
+
+.icon {
+    font-size: 40px;
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.content {
+    margin-top: 0px;
+    margin-left: 100px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .nav-link {
-    color: #e6e6e6;
+    /*color: #e6e6e6;*/
     background-color: #1b6ec2;
     border-color: #1861ac;
+}
+
+.active {
+    font-weight: 500;
 }
 
 .nav-pills .show > .nav-link {
