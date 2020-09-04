@@ -7,7 +7,7 @@
 $enable-responsive-font-sizes: true;
 $enable-shadows: false;
 $enable-rounded: false;
-$font-family-base: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$font-family-base: Helvetica,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
 // Colors
 $white: #fff;
@@ -27,6 +27,8 @@ $awesome-color: #265B6A;
 $test-color: #ff9900;
 $awesome-color-light: #447684;
 $awesome-color-lighter: #6B949F;
+$awesome-color-lightest: #9ad4e4;
+$awesome-color-darkest: #143038;
 
 // Themes
 $theme-colors: ( "primary": $awesome-color );

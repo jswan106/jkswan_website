@@ -11,9 +11,9 @@ $body-bg: $gray-900;
 $body-color: $gray-400;
 
 $table-dark-bg: $awesome-color;
-$card-cap-bg: $awesome-color-light;
+$card-cap-bg: $awesome-color;
 $card-cap-color: $gray-100;
-$jumbotron-bg: $awesome-color;
+$jumbotron-bg: $gray-800;
 
 $pagination-color: $awesome-color;
 $pagination-hover-color: darken($orange, 15%);
@@ -32,6 +32,10 @@ $list-group-hover-bg: $gray-600;
 @import "../lib/bootstrap/scss/bootstrap.scss";
 
 // Customs
+body {
+    font-weight: 300;
+}
+
 .card-subtitle {
     color: $gray-500;
 }
@@ -51,4 +55,10 @@ $list-group-hover-bg: $gray-600;
 .content {
     margin-top: 0px;
     margin-left: 100px;
+}
+.nav-bar-bg-color {
+    background-color: $awesome-color-darkest;
+}
+.emphasis-text {
+    color: $awesome-color-lightest;
 }
